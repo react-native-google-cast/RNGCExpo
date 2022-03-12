@@ -35,3 +35,5 @@ Additionally, I built the app using EAS.
    }
    ```
 10. `eas build -p android --profile preview`
+
+You can download the APK from the Releases https://github.com/react-native-google-cast/RNGCExpo/releases/download/1.0.0/0c8faa9c-7f44-424c-9c92-0006064c5e93-7f948c918fce4fa39054c06cf485ac58.apk
