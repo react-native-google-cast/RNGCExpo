@@ -17,17 +17,27 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      "@config-plugins/react-native-google-cast"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petrbela.RNGCExpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.petrbela.RNGCExpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "513e7043-5edb-4c08-bfef-3fd4a7179b71"
+      }
     }
   }
 }
