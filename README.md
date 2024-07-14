@@ -1,6 +1,6 @@
 # RNGC Expo Example
 
-> This is an example of integrating https://github.com/react-native-google-cast/react-native-google-cast in Expo 47.
+> This is an example of integrating https://github.com/react-native-google-cast/react-native-google-cast in Expo 51.
 
 This example was created using the following steps:
 
@@ -17,7 +17,7 @@ This example was created using the following steps:
    ```json
    {
      "expo": {
-       "plugins": ["@config-plugins/react-native-google-cast"]
+       "plugins": ["react-native-google-cast"]
      }
    }
    ```
@@ -55,5 +55,3 @@ Additionally, I built the app using EAS.
    ```
 
 4. `eas build -p android --profile preview`
-
-You can download the APK from https://expo.dev/artifacts/eas/2wNCoXKb8eeMiRMuobGoRC.apk

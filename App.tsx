@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { CastButton, useCastState } from "react-native-google-cast";
+import { CastButton } from "react-native-google-cast";
 
 export default function App() {
   return (

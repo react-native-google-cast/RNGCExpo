@@ -2,7 +2,7 @@
   "expo": {
     "name": "RNGCExpo",
     "slug": "RNGCExpo",
-    "version": "1.0.0",
+    "version": "5.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,7 @@
       "**/*"
     ],
     "plugins": [
-      "@config-plugins/react-native-google-cast"
+      "react-native-google-cast"
     ],
     "ios": {
       "supportsTablet": true,
@@ -30,9 +30,6 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.petrbela.RNGCExpo"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
